@@ -192,7 +192,6 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KeyvaultController.cs" />
     <Compile Include="Controllers\MultiChainController.cs" />
-    <Compile Include="Controllers\VauleController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
