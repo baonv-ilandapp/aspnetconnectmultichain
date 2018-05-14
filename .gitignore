@@ -5,3 +5,5 @@
 /.vs
 /AspNetConnectMultiChain/obj/Debug
 /packages
+/AspNetConnectMultiChain/bin/Debug
+/ConnectMultiChain/bin
