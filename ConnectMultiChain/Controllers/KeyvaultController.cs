@@ -17,7 +17,7 @@ namespace ConnectMultiChain.Controllers
         public KeyvaultController()
         {
             var keyVaultClient = new KeyVaultClient(AuthenticateVaultAsync);
-            var keyId = "https://testingconnectaspnet.vault.azure.net/keys/demo/83d00afebb324b19b0fa02176452ca8d";
+            var keyId = "https://testingconnectaspnet.vault.azure.net/keys/CreateKeyFromAspNet/64b353768f334e21a54213168dfe4855";
             _keyVaultCrypto = new KeyVaultCrypto(keyVaultClient,keyId);
         }
 
